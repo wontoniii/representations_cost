@@ -1,4 +1,4 @@
-FROM golang:bookworm
+FROM golang:1.21.10-bookworm
 
 # Install support libraries
 RUN apt update
